@@ -1,0 +1,11 @@
+[package]
+name = "environment"
+description = "A rust library to check the environment at runtime"
+version = "0.1.0"
+author = "Dhanush Nehru"
+edition = "2021"
+license = "MIT"
+readme="README.md"
+repository = "https://github.com/DhanushNehru/environment"
+
+[dependencies]
