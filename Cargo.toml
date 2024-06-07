@@ -1,11 +1,11 @@
 [package]
-name = "runtime-environment"
-description = "A rust library to check the runtime-environment at runtime"
+name = "runtime_environment"
+description = "A rust library to check the runtime_environment at runtime"
 version = "0.1.0"
 author = "Dhanush Nehru"
 edition = "2021"
 license = "MIT"
 readme="README.md"
-repository = "https://github.com/DhanushNehru/runtime-environment"
+repository = "https://github.com/DhanushNehru/runtime_environment"
 
 [dependencies]
