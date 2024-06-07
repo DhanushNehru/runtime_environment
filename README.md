@@ -1,4 +1,4 @@
-# Environment
+# runtime-environment
 
 A Rust library to check the operating system at runtime.
 
@@ -7,14 +7,14 @@ A Rust library to check the operating system at runtime.
 In your `Cargo.toml`, add the following line under the `[dependencies]` section:
 
 ```rust
-environment = "0.1.0"
+runtime-environment = "0.1.0"
 ```
 
 ## Usage
 This is an example usage someone might do:
 
 ```rust
-use environment::{is_mac_os, is_windows, is_linux};
+use runtime-environment::{is_mac_os, is_windows, is_linux};
 
 fn main() {
     if is_mac_os() {
@@ -59,9 +59,9 @@ This `README.md` file provides a clear overview of the library, installation ins
 
 ## Gitpod
 
-In the cloud-free development environment where you can directly start coding.
+In the cloud-free development runtime-environment where you can directly start coding.
 
-You can use Gitpod in the cloud  [![Gitpod Ready-to-Code](https://img.shields.io/badge/Gitpod-Ready--to--Code-blue?logo=gitpod)](https://gitpod.io/#https://github.com/DhanushNehru/runtime-environment/)
+You can use Gitpod in the cloud  [![Gitpod Ready-to-Code](https://img.shields.io/badge/Gitpod-Ready--to--Code-blue?logo=gitpod)](https://gitpod.io/#https://github.com/DhanushNehru/runtime-runtime-environment/)
 
 ----
 
